@@ -12,3 +12,5 @@ P. Irofti and A. Băltoiu, “Malware Identification with Dictionary Learning,�
   url = {https://cs.unibuc.ro//~pirofti/papers/IroftiBăltoiu19_malid.pdf}
 }
 ```
+
+The [dictionary learning toolbox](https://github.com/pirofti/dl-box) is required for running the scripts.
