@@ -137,7 +137,7 @@ for i = 1:N
             
         case 'WA2'
             W = De(m+1:m + PARAMS.Classes, :) / sqrt(PARAMS.Constraint{1});
-            W = W ./ repmat(normD, res.c, 1);
+            W = W ./ repmat(normD, PARAMS.Classes, 1);
             A = De(m+PARAMS.Classes+1 : me, :) / sqrt(PARAMS.Constraint{2});
             A = A ./ repmat(normD, nr, 1);
             
